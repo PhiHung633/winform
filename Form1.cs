@@ -24,7 +24,7 @@ namespace Demo02
             btn.AutoSize= true;
             Random rand= new Random();
             btn.Location = new Point(rand.Next(0,pnlButton.Size.Width),rand.Next(0,pnlButton.Size.Height));
-
+            MessageBox.Show("ddddd");
             pnlButton.Controls.Add(btn);
             fpnlButton.Controls.Add(btn);
         }
