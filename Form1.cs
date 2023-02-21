@@ -25,6 +25,7 @@ namespace Demo02
             Random rand= new Random();
             btn.Location = new Point(rand.Next(0,pnlButton.Size.Width),rand.Next(0,pnlButton.Size.Height));
             MessageBox.Show("ddddd");
+            MessageBox.Shhow("aaaa");
             pnlButton.Controls.Add(btn);
             fpnlButton.Controls.Add(btn);
         }
